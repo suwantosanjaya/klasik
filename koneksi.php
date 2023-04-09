@@ -1,8 +1,8 @@
 <?php
-    $dbServer = "localhost";
-    $dbUsername = "root";
+    $dbServer = "";
+    $dbUsername = "";
     $dbPassword = "";
-    $dbName = "kereta_api";
+    $dbName = "";
 
     $connString = "mysql:host=".$dbServer.";dbname=".$dbName;
     $conn = new PDO($connString, $dbUsername, $dbPassword);
